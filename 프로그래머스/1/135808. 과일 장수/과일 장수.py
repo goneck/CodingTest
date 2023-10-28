@@ -5,5 +5,5 @@ def solution(k, m, score):
     for i in range(0, len(score), m):
         box=score[i:i+m]
         if(len(box)<m): break
-        answer+=min(box)*m
+        answer+=box[-1]*m
     return answer
