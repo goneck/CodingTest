@@ -9,7 +9,6 @@ def solution(cards1, cards2, goal):
             cards2.popleft()
         else:
             return "No"
-        if i==len(goal)-1:
-            return "Yes"
+    return "Yes"
             
         
